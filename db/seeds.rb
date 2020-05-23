@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+flower = Property.create(name: "Flower")
+root = Property.create(name: "Root")
+leaf = Property.create(name: "Leaf")
